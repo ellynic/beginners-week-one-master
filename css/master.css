@@ -1,0 +1,21 @@
+div.headline {
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+  font-weight: 300;
+  font-variant: small-caps;
+}
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  transition-duration: 600ms;
+  transition-property: width, background-color;
+}
+
+.box1:hover {
+  width: 500px;
+  background-color: mistyrose;
+  border-radius: 45%;
+}
